@@ -11,21 +11,60 @@
             header{
                 background-color: aquamarine;
                 padding: 20px;
+                display: flex;
             }
             section{
                 background-color: aqua;
                 padding: 20px;
+                display: flex;
+                margin-top: 1px;
+                margin-bottom: 1px;
             }
             footer{
                 background-color: chocolate;
                 padding: 10px 20px;
             }
+            div{
+               background-color: black; 
+               color: white;
+               margin:auto;
+               width: 50px;
+               height: 50px;
+            }
+            ul{
+                margin: 0px;
+                padding: 0px;
+                display: flex;
+            }
+            li{
+                margin-right: 10px;
+                list-style-type: none;
+            }
+            h1{
+                margin-right: 42%;
+                margin-left: 42%;
+            }
+            nav{
+            }
             
         </style>
     </head>
     <body>
-        <header>Cabeçalho</header>
-        <section>Triple div</section>
+        <header>
+             <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Contatos</li>
+                    <li>Sobre</li>
+                </ul>
+             </nav>
+             <h1>Título</h1>
+        </header>
+        <section>
+            <div>a</div>
+            <div>b</div>
+            <div>c</div>
+        </section>
         <section>Section grande</section>
         <footer>Rodapé</footer>
     </body>
